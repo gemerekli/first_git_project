@@ -5,22 +5,42 @@
     *Repositories > Create New Repository > first_git_project
 3. Terminal (below the screen)
 4. Create a new Commit for the First time
-ONLY ONCE   * git init
+ONLY ONCE    * git init
 EVERY TIME   * git add .
 
 Note: git status -> This is our friend. This can be used anytime to see the progress
 
 EVERY TIME  * git commit -m "first commit"
-ONLY ONCE * git branch -M main
-7. git remote add origin https://github.com/gemerekli/first_git_project.git
-    !!! We have connected git and github here
-8. git push -u origin main
+ONLY ONCE   * git branch -M main
+ONLY ONCE   *  git remote add origin https://github.com/gemerekli/first_git_project.git
+    !!! We have connected git and GitHub here
+ONLY ONCE   *  git push -u origin main
 
-!!! Then your code should be pushed to github. REFRESH your page to see the code
+!!! Then your code should be pushed to GitHub. REFRESH your page to see the code
 
  Create a new SECOND COMMIT
     *Create a new java class under first_git_package: MySecondClass
-    *Create a new commit and push the code to github
+    *Create a new commit and push the code to GitHub
         * git add .
         * git commit -m "added my second java class"
         * git push
+
+
+ 5. ADDING SPECIFIC FILES
+    * Create 2 JAVA classes :     MyThirdClass      MyFourthClass
+
+    !!I will add MyFourthClass
+    * git status
+    !!take the directory "src/main/java/first_git_package/MyFourthClass.java"
+    * git add "src/main/java/first_git_package/MyFourthClass.java"
+    * git commit -m "committing my fourth class"
+    * git push
+
+6. GIT PULL
+    *git pull is used to get the code from github
+    *git pull = git fetch + git merge
+    NOTE: if git pull trows error then use:
+        git fetch
+        git merge
+
+     ** NOW THAT WE HAVE OUR LOCAL UPDATED , THEN COMMIT THE CODES AND PUSH ALL TOGETHER
