@@ -5,13 +5,13 @@
     *Repositories > Create New Repository > first_git_project
 3. Terminal (below the screen)
 4. Create a new Commit for the First time
-   * git init
-   * git add .
+ONLY ONCE   * git init
+EVERY TIME   * git add .
 
 Note: git status -> This is our friend. This can be used anytime to see the progress
 
-5. git commit -m "first commit"
-6. git branch -M main
+EVERY TIME  * git commit -m "first commit"
+ONLY ONCE * git branch -M main
 7. git remote add origin https://github.com/gemerekli/first_git_project.git
     !!! We have connected git and github here
 8. git push -u origin main
@@ -21,6 +21,6 @@ Note: git status -> This is our friend. This can be used anytime to see the prog
  Create a new SECOND COMMIT
     *Create a new java class under first_git_package: MySecondClass
     *Create a new commit and push the code to github
-        *git add .
-        *git commit -m "added my second java class"
-        *git push
+        * git add .
+        * git commit -m "added my second java class"
+        * git push
