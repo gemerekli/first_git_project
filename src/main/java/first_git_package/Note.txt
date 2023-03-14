@@ -49,6 +49,27 @@ ONLY ONCE   *  git push -u origin main
      * git push
 
 NOTE : PULL BEFORE PUSH
-       * git pull --> git add . -> git commit -m "message" --> git pushü
+       * git pull --> git add . -> git commit -m "message" --> git push
+
+****************************DAY 1 SUMMARY**************************************************
+****** Prerequisitions :
+*Git Install
+*GitHub account
+*Git Authentication (Create token, ass username and token so your account verification  is complete)
+*****First Time Git Push*****
+*git init
+*
+
+****Second Time Git Push*****
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/gemerekli/demo-repo.git
+    git push -u origin main
+*NOTE : If you get error, just google the error message
+*FOLLOW THE INSTRUCTION IN PUR GITHUB REPOSITORY
+
+
 
 
